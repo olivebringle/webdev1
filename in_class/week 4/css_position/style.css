@@ -1,0 +1,26 @@
+h1 {
+    color:darkgreen;
+}
+
+.box {
+    background: purple;
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+}
+
+.absolute {
+    background: blue;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    /* only do two at a time or there will be conflict between the opposite directions */
+}
+
+.fixed {
+    background: limegreen;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50%);
+}

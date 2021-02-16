@@ -1,0 +1,11 @@
+.titles {
+    color: gold;
+    text-align: center;
+    font-family: monospace;
+}
+
+.not-titles {
+    color: red;
+    font-family: monospace;
+}
+

@@ -1,0 +1,19 @@
+h1{
+    color: orangered;
+}
+.regular-text{
+    font-size: 30px;
+}
+
+.cool-text{
+    color: magenta;
+    font-family: cursive;
+}
+
+.top-section{
+    background: lightseagreen;
+}
+
+#page-subtitle{
+    color: brown;
+}
