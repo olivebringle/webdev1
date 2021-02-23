@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 2rem .5em;
+    padding: 1em;
+    border: 2px solid grey;
+}
+
+.vmin-demo{
+    background: lightskyblue;
+    font-size: 4vmin;
+}
+
+.section-vmin img{
+    width: 30vmin;
+}
+
+.section-em{
+    font-size: 40px;
+}
+
+.box-em {
+    
+    width: 
+    max-content;
+    padding: 2em;
+    font-size: 40px;
+    background: grey;
+    margin: 1rem;
+    color: white;
+}
