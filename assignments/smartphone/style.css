@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 1em;
+    height: 20em;
+    width: 20em;
+    display: flex
+
+}
+
+.screen {
+    background: lightgrey;
+    display: flex;
+    justify-content:center;
+    Flex-wrap: wrap;
+}
+
+.app {
+    background: rgb(251,251,251);
+background: radial-gradient(circle, rgba(251,251,251,1) 11%, rgba(116,255,0,1) 53%, rgba(89,195,0,1) 98%);
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1em;
+    
+}
+
+.app2 {
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,40,40,1) 14%, rgba(0,219,255,1) 60%);
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1em;
+
+}
+
+.app3 {
+    background: rgb(255,255,255);
+background: linear-gradient(112deg, rgba(255,255,255,1) 0%, rgba(254,255,0,1) 32%, rgba(255,119,0,1) 82%);
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1em;
+}
+
+.app4 {
+    background: rgb(255,0,0);
+background: linear-gradient(230deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 30%, rgba(255,243,243,1) 50%, rgba(255,255,255,1) 70%, rgba(255,0,0,1) 100%);
+height: 10vmin;
+width: 10vmin;
+margin: 1em;
+}
+
+.app5 {
+    background: rgb(255,250,200);
+background: radial-gradient(circle, rgba(255,250,200,1) 12%, rgba(0,29,64,1) 100%);
+height: 10vmin;
+width: 10vmin;
+margin: 1em;
+}
+
+.app6 {
+    background: rgb(64,157,0);
+background: linear-gradient(238deg, rgba(64,157,0,1) 12%, rgba(229,235,134,1) 39%, rgba(245,225,134,1) 63%, rgba(199,106,0,1) 100%);
+height: 10vmin;
+width: 10vmin;
+margin: 1em;
+}
+
+.app7{
+    background: rgb(250,0,0);
+background: radial-gradient(circle, rgba(250,0,0,1) 11%, rgba(116,107,99,1) 61%, rgba(53,117,0,1) 79%);
+height: 10vmin;
+width: 10vmin;
+margin: 1em;
+}
+
+.app8 {
+    background: rgb(255,175,0);
+    background: linear-gradient(180deg, rgba(255,175,0,1) 0%, rgba(255,205,226,1) 50%, rgba(181,0,0,1) 100%);
+    height: 10vmin;
+width: 10vmin;
+margin: 1em;
+}
+
+.app9 {
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,40,40,1) 40%, rgba(56,255,0,1) 60%, rgba(3,13,0,1) 100%);
+    height: 10vmin;
+width: 10vmin;
+margin: 1em;
+}
