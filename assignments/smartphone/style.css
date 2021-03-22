@@ -8,7 +8,8 @@ body {
     height: 20em;
     width: 20em;
     display: flex
-
+    justify;
+   
 }
 
 .screen {
@@ -90,4 +91,7 @@ margin: 1em;
     height: 10vmin;
 width: 10vmin;
 margin: 1em;
+}
+nav {
+    justify-content: center;
 }
