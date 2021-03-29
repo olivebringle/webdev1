@@ -1,0 +1,49 @@
+body {
+    display: flex;
+}
+
+.bar1 {
+    background-color:rgb(255, 72, 0);
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: drop;
+    animation-duration: 6s;
+    opacity: 0;
+}
+
+.bar2 {
+    background-color: rgb(255, 146, 22);
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1em; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: drop;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+.bar3 {
+    background-color: yellow;
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: drop;
+    animation-duration: 6s;
+    animation-delay: 4s;
+   opacity: 0;
+}
+
+@keyframes drop{
+    0% {opacity: 0; }
+    100% {opacity: 1;}
+}
