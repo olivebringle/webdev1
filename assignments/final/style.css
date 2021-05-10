@@ -18,9 +18,19 @@ a{
     font-family: 'Press Start 2P', cursive;
 }
 
+a:link {color: ivory;}
+
+a:visited {color: black;}
+
+a:hover { color: lightgreen;}
+
 .text {
     font-family: monospace;
     background-color: rgba(16, 158, 214, 0.616);
+    animation-name: color;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .grid {
@@ -42,6 +52,15 @@ a{
 
 .mudkip {
     grid-column: 2/2;
+}
+
+
+
+
+@keyframes color {
+    from {color: black;}
+    to {color:gold;}
+    
 }
 
 
