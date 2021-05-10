@@ -18,3 +18,33 @@ a{
     font-family: 'Press Start 2P', cursive;
 }
 
+.text {
+    font-family: monospace;
+    background-color: rgba(16, 158, 214, 0.616);
+}
+
+.grid {
+    display: grid;
+    justify-content: space-evenly;
+    
+}
+
+.pokemon {
+    height: 20vmin;
+    width: 20vmin;
+    margin: 1em;
+}
+
+.lotad {
+    grid-column: 1/1;
+}
+
+.mudkip {
+    grid-column: 2/2;
+}
+
+
+
+
+
+
