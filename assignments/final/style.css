@@ -6,4 +6,15 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: deepskyblue;
 }
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color:ivory
+}
+
+a{
+    font-family: 'Press Start 2P', cursive;
+}
+
